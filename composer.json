@@ -1,22 +1,22 @@
 {
-    "name": "texthtml/whoops-silex",
-    "description": "Integrates the Whoops library into Silex",
-    "keywords": ["whoops", "silex", "error", "exception"],
+    "name": "prestophp/whoops-prestophp",
+    "description": "Integrates the Whoops library into PrestoPHP",
+    "keywords": ["whoops", "prestophp", "error", "exception"],
     "license": "AGPL-3.0",
     "authors": [
         {
-            "name": "Mathieu Rochette",
-            "email": "mathieu@rochette.cc",
-            "homepage": "https://mathieu.rochette.cc"
+            "name": "Gunnar Beushausen",
+            "email": "gunnar@prestophp.com",
+            "homepage": "https://www.prestophp.com"
         }
     ],
     "require": {
-        "texthtml/whoops-pimple": "~1.0",
-        "silex/silex": "~2.0@dev"
+        "gbeushausen/whoops-pimple": "^1.2",
+        "prestophp/prestophp": "^2.3.1"
     },
     "autoload": {
         "psr-4": {
-            "WhoopsSilex\\": "src/"
+            "WhoopsPrestoPHP\\": "src/"
         }
     }
 }
