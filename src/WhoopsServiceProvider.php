@@ -14,8 +14,6 @@ use PrestoPHP\ExceptionListenerWrapper;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpKernel\KernelEvents;
 use WhoopsPimple\WhoopsServiceProvider as PimpleWhoopsServiceProvider;
-use WhoopsPrestoPHP\PrestoPHPApplicationHandler;
-use WhoopsPrestoPHP\RequestHandler;
 
 class WhoopsServiceProvider implements ServiceProviderInterface, EventListenerProviderInterface
 {

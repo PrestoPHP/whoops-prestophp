@@ -12,7 +12,7 @@
     ],
     "require": {
         "gbeushausen/whoops-pimple": "^1.2",
-        "prestophp/prestophp": "^2.3.1"
+        "prestophp/prestophp": "^2.4"
     },
     "autoload": {
         "psr-4": {
